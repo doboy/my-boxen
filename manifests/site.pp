@@ -218,7 +218,7 @@ node default {
     value  => true
   }
 
-  git::config::global { 'alias.push':
+  git::config::global { 'push.default':
     value  => simple
   }
 }
