@@ -1,0 +1,3 @@
+---
+boxen::config::srcdir: /Users/huan/Code
+git::global_excludesfile: /Users/huan/.gitignore_global

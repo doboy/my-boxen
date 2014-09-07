@@ -56,6 +56,10 @@ github "ruby",        "8.1.2"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
+github "osx",         "1.0.0"
+github "zsh",         "1.0.0"
+github "brewcask",    "0.0.3", :repo => "phinze/puppet-brewcask"
+mod    "chrome",      "1.2.0", :github_tarball => "boxen/puppet-chrome"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
