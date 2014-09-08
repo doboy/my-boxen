@@ -83,7 +83,9 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'python',
+      's3cmd'
     ]:
   }
 
@@ -96,6 +98,9 @@ node default {
     ensure => directory
   } ->
   package { 'sublime-text':
+    provider => 'brewcask'
+  }
+  package { 'pdftk':
     provider => 'brewcask'
   }
 
