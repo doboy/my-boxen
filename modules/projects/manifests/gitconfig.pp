@@ -43,7 +43,7 @@ class projects::gitconfig {
     value  => 'status'
   }
 
-  git::config::global { 'alias.l':
+  git::config::global { 'alias.lg':
     value  => 'log --graph'
   }
 

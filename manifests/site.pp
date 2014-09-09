@@ -1,3 +1,4 @@
+
 require boxen::environment
 require homebrew
 require gcc
@@ -97,9 +98,6 @@ node default {
   file { "/usr/local":
     ensure => directory
   } ->
-  package { 'sublime-text':
-    provider => 'brewcask'
-  }
   package { 'pdftk':
     provider => 'brewcask'
   }

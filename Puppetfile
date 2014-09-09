@@ -64,4 +64,6 @@ github "zsh",         "1.0.0"
 
 github "brewcask",    "0.0.3", :repo => "phinze/puppet-brewcask"
 mod    "chrome",      "1.2.0", :github_tarball => "boxen/puppet-chrome"
-
+github "sublime_text_3",
+                      "1.0.5", :repo => "doboy/puppet-sublime_text_3"
+github "dropbox",     "1.4.0"
