@@ -1,0 +1,13 @@
+class projects::oh_my_zsh {
+  $home = "/Users/${::boxen_user}"
+  $github_user = "doboy"
+
+  $oh_my_zsh_dir = "${boxen::config::srcdir}/.oh-my-zsh"
+  repository { $oh_my_zsh_dir:
+    source => "${github_user}/oh-my-zsh"
+  } ->
+  file { "${home}/.oh-my-zsh":
+    ensure  => link,
+    target  => "${boxen::config::srcdir}/.oh-my-zsh"
+  }
+}
