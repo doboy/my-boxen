@@ -61,6 +61,7 @@ node default {
   include chrome
   include zsh
   include brewcask
+  include python
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -86,7 +87,10 @@ node default {
       'findutils',
       'gnu-tar',
       'python',
-      's3cmd'
+      's3cmd',
+      'ffmpeg',
+      'youtube-dl',
+      'mplayer'
     ]:
   }
 

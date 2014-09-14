@@ -67,3 +67,4 @@ mod    "chrome",      "1.2.0", :github_tarball => "boxen/puppet-chrome"
 github "sublime_text_3",
                       "1.0.5", :repo => "doboy/puppet-sublime_text_3"
 github "dropbox",     "1.4.0"
+github "python",       "2.0.0"
